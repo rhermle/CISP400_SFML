@@ -1,0 +1,5 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/r/Desktop/cisp400/SFML_Test'
+g++ -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -o main main.o
+make: Leaving directory '/home/r/Desktop/cisp400/SFML_Test'
+ 
