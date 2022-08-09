@@ -1,6 +1,7 @@
 .vs*
 *.vcx*
 *.sln
+*.dll
 
 # Prerequisites
 *.d
