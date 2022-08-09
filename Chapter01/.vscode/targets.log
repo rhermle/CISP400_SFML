@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 28 13:53:31 2022
+# Make data base, printed on Mon Aug  8 17:39:41 2022
 
 # Variables
 
@@ -29,7 +27,7 @@ SNAP_COMMON = /var/snap/code/common
 # environment
 XDG_SESSION_TYPE = x11
 # makefile (from 'makefile', line 8)
-TARGET := main
+TARGET := game
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -37,21 +35,21 @@ IM_CONFIG_PHASE = 1
 # automatic
 @D = $(patsubst %/,%,$(dir $@))
 # environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
+XAUTHORITY = /var/run/gdm3/auth-for-admin-LMUWQ1/database
 # environment
 GDMSESSION = ubuntu
 # environment
 XMODIFIERS = @im=ibus
 # makefile
-CURDIR := /home/r/Desktop/cisp400/Chapter01
+CURDIR := /home/admin/Desktop/cisp400/projects/CISP400_SFML/Chapter01
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/102
+SNAP_DATA = /var/snap/code/103
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:51430
+JOURNAL_STREAM = 8:2208206
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -65,61 +63,57 @@ MAKEFILE_LIST :=  makefile
 # environment
 GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-USERNAME = r
+USERNAME = admin
 # makefile (from 'makefile', line 2)
 OBJ_DIR := .
 # makefile (from 'makefile', line 7)
 CXXFLAGS := 
 # environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-_ = /snap/code/102/usr/share/code/code
+_ = /snap/code/103/usr/share/code/code
 # makefile (from 'makefile', line 6)
 CPPFLAGS := -g -Wall -fpermissive -std=c++17
 # environment
-MANAGERPID = 1364
+MANAGERPID = 188772
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
-VSCODE_CWD = /home/r
+VSCODE_CWD = /home/admin
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/103/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
- 
 # makefile (from 'makefile', line 4)
 OBJ_FILES := ./Timber.o
 # environment
- 
 PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/ubuntu:@/tmp/.ICE-unix/1577,unix/ubuntu:/tmp/.ICE-unix/1577
+SESSION_MANAGER = local/BCS-Ubuntu-32:@/tmp/.ICE-unix/188979,unix/BCS-Ubuntu-32:/tmp/.ICE-unix/188979
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-GDK_PIXBUF_MODULE_FILE = /home/r/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+GDK_PIXBUF_MODULE_FILE = /home/admin/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/102
- 
+SNAP = /snap/code/103
 # environment
-SNAP_VERSION = 3b889b09
+SNAP_VERSION = da76f933
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
 DISABLE_WAYLAND = 1
- 
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 96716fe7f67c4b4e9916f7250c4412d9
+INVOCATION_ID = f8452b64d0274fbda2c562074f921e1f
 # makefile (from 'makefile', line 5)
 LDFLAGS := -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/103/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -129,19 +123,19 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5548
+GIO_LAUNCHED_DESKTOP_FILE_PID = 191174
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = :0
+DISPLAY = :100
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-PWD = /home/r/Desktop/cisp400/Chapter01
+PWD = /home/admin/Desktop/cisp400/projects/CISP400_SFML/Chapter01
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1542
+SSH_AGENT_PID = 188940
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -149,40 +143,35 @@ GTK_MODULES = gail:atk-bridge
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-HOME = /home/r
+HOME = /home/admin
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
- 
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/r/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+VSCODE_CODE_CACHE_PATH = /home/admin/.config/Code/CachedData/da76f93349a72022ca4670c1b84860304616aaa2
 # environment
-LOGNAME = r
+LOGNAME = admin
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # environment
-SNAP_CONTEXT = F0yY4mxdHlhS8MDuTcYHKi3iYL3AJLRsxEO1i5CLzVaR1MyV9uQc
- 
+SNAP_CONTEXT = esk9QzWbh4tR52vMfOCuyQx9g8brxCKVpI0aSQ0Qm8Zn8TemnTge
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
- 
-SNAP_USER_COMMON = /home/r/snap/code/common
+SNAP_USER_COMMON = /home/admin/snap/code/common
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
- 
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
 MAKELEVEL := 0
 # environment
-SNAP_REAL_HOME = /home/r
- 
+SNAP_REAL_HOME = /home/admin
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -190,7 +179,7 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/r/snap/code/102
+SNAP_USER_DATA = /home/admin/snap/code/103
 # environment
 SHLVL = 0
 # environment
@@ -198,24 +187,23 @@ GNOME_SHELL_SESSION_MODE = ubuntu
 # default
 MAKE_VERSION := 4.2.1
 # environment
-USER = r
+USER = admin
 # environment
-SNAP_REVISION = 102
+SNAP_REVISION = 103
 # makefile
-.DEFAULT_GOAL := main
+.DEFAULT_GOAL := game
 # environment
 XDG_CURRENT_DESKTOP = Unity
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # default
- 
 MAKE_COMMAND := make
 # default
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-04ba44ff-1.69.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-11a9a607-1.70.0-main.sock
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # makefile
@@ -229,14 +217,13 @@ MFLAGS = -pqrR
 # environment
 GDK_BACKEND = x11
 # automatic
- 
 +F = $(notdir $+)
 # environment
 QT_ACCESSIBILITY = 1
 # default
 MAKEFILES := 
 # environment
-SNAP_COOKIE = F0yY4mxdHlhS8MDuTcYHKi3iYL3AJLRsxEO1i5CLzVaR1MyV9uQc
+SNAP_COOKIE = esk9QzWbh4tR52vMfOCuyQx9g8brxCKVpI0aSQ0Qm8Zn8TemnTge
 # makefile (from 'makefile', line 1)
 SRC_DIR := ./code
 # automatic
@@ -246,7 +233,6 @@ SNAP_NAME = code
 # environment
 LC_ALL = C
 # environment
- 
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # automatic
 ^F = $(notdir $^)
@@ -255,12 +241,9 @@ SRC_FILES := ./code/Timber.cpp
 # default
 SUFFIXES := 
 # environment
- 
 SNAP_REEXEC = 
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
-# environment
-WINDOWPATH = 2
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
@@ -268,26 +251,23 @@ GJS_DEBUG_OUTPUT = stderr
 # default
 .RECIPEPREFIX := 
 # environment
- 
 LANG = C
 # environment
-VSCODE_PID = 5605
+VSCODE_PID = 191221
 # variable set hash-table stats:
-# Load=123/1024=12%, Rehash=0, Collisions=18/156=12%
+# Load=122/1024=12%, Rehash=0, Collisions=18/155=12%
 
- 
 # Pattern-specific Variable Values
 
 # No pattern-specific variable values.
 
 # Directories
 
-# . (device 2053, inode 2099559): 9 files, no impossibilities.
- 
-# ./code (device 2053, inode 2099561): 3 files, no impossibilities.
-# code (device 2053, inode 2099561): 3 files, no impossibilities.
+# . (device 2053, inode 7734667): 10 files, no impossibilities.
+# ./code (device 2053, inode 7734674): 3 files, no impossibilities.
+# code (device 2053, inode 7734674): 3 files, no impossibilities.
 
-# 15 files, no impossibilities in 3 directories.
+# 16 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -309,7 +289,10 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-28 13:53:27.294570539
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+#  Last modified 2022-08-08 17:39:35.32773557
 #  File has been updated.
 #  Successfully updated.
 
@@ -333,40 +316,33 @@ clean:
 #  recipe to execute (from 'makefile', line 20):
 	rm $(TARGET) *.o
 
-main: Timber.o
+game: Timber.o
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 11):
 	g++ -o $@ $^ $(LDFLAGS)
 
- 
 # Not a target:
 Timber.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
- 
 
 # files hash-table stats:
- 
 # Load=8/1024=1%, Rehash=0, Collisions=0/19=0%
 # VPATH Search Paths
- 
 
 # No 'vpath' search paths.
- 
 
- 
 # No general ('VPATH' variable) search path.
 
 # strcache buffers: 1 (0) / strings = 22 / storage = 168 B / avg = 7 B
 # current buf: size = 8162 B / used = 168 B / count = 22 / avg = 7 B
 
-# strcache performance: lookups = 32 / hit rate = 31%
+# strcache performance: lookups = 33 / hit rate = 33%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=2/32=6%
-# Finished Make data base on Thu Jul 28 13:53:31 2022
+# Load=22/8192=0%, Rehash=0, Collisions=2/33=6%
+# Finished Make data base on Mon Aug  8 17:39:41 2022
 
  

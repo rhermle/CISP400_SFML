@@ -1,6 +1,5 @@
 make --dry-run --keep-going --print-directory
-make: Entering directory '/home/r/Desktop/cisp400/Chapter01'
-g++ -g -Wall -fpermissive -std=c++17  -c -o Timber.o code/Timber.cpp
-g++ -o main Timber.o -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
-make: Leaving directory '/home/r/Desktop/cisp400/Chapter01'
+make: Entering directory '/home/admin/Desktop/cisp400/projects/CISP400_SFML/Chapter01'
+g++ -o game Timber.o -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
+make: Leaving directory '/home/admin/Desktop/cisp400/projects/CISP400_SFML/Chapter01'
  
