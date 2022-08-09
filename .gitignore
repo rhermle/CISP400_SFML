@@ -1,4 +1,6 @@
-.vscode
+.vs*
+*.vcx*
+*.sln
 
 # Prerequisites
 *.d
