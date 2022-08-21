@@ -24,7 +24,7 @@ int main()
 	Text hud;
 	// A cool retro-style font
 	Font font;
-	font.loadFromFile("fonts/DS-DIGIT.ttf");
+	font.loadFromFile("fonts/DS-DIGIT.TTF");
 	// Set the font to our retro-style
 	hud.setFont(font);
 	// Make it nice and big
