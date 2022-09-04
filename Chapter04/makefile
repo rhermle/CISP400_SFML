@@ -5,7 +5,7 @@ OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp,$(OBJ_DIR)/%.o,$(SRC_FILES))
 LDFLAGS := -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 CPPFLAGS := -g -Wall -fpermissive -std=c++17
 CXXFLAGS :=
-TARGET := game
+TARGET := game.out
 
 $(TARGET): $(OBJ_FILES)
 	g++ -o $@ $^ $(LDFLAGS)
