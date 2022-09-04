@@ -17,6 +17,8 @@ Sprite branches[NUM_BRANCHES];
 enum class side { LEFT, RIGHT, NONE };
 side branchPositions[NUM_BRANCHES];
 
+/// Test
+
 int main()
 {
 	// Create a video mode object
@@ -24,7 +26,7 @@ int main()
 
 	// Create and open a window for the game
 	RenderWindow window(vm, "Timber", Style::Default);
-cout << test << endl;
+
 	// Create a texture to hold a graphic on the GPU
 	Texture textureBackground;
 
