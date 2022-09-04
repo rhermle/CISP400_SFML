@@ -17,15 +17,13 @@ Sprite branches[NUM_BRANCHES];
 enum class side { LEFT, RIGHT, NONE };
 side branchPositions[NUM_BRANCHES];
 
-//Test
-
 int main()
 {
 	// Create a video mode object
 	VideoMode vm(1920, 1080);
 
 	// Create and open a window for the game
-	RenderWindow window(vm, "Timber Game", Style::Default);
+	RenderWindow window(vm, "Timber", Style::Default);
 
 	// Create a texture to hold a graphic on the GPU
 	Texture textureBackground;
