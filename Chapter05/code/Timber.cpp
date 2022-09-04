@@ -17,8 +17,6 @@ Sprite branches[NUM_BRANCHES];
 enum class side { LEFT, RIGHT, NONE };
 side branchPositions[NUM_BRANCHES];
 
-/// Test
-
 int main()
 {
 	// Create a video mode object
