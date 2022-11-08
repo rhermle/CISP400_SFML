@@ -1,4 +1,6 @@
-#include "bullet.h"
+#include "Bullet.h"
+#include <cmath>
+
 // The constructor
 Bullet::Bullet()
 {
