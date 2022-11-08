@@ -245,8 +245,8 @@ int main()
 			{			
 				// Prepare thelevel
 				// We will modify the next two lines later
-				arena.width = 500;
-				arena.height = 500;
+				arena.width = 1500;
+				arena.height = 1500;
 				arena.left = 0;
 				arena.top = 0;
 
@@ -262,7 +262,7 @@ int main()
 				ammoPickup.setArena(arena);
 
 				// Create a horde of zombies
-				numZombies = 10;
+				numZombies = 30;
 				// Delete the previously allocated memory (if it exists)
 				delete[] zombies;
 				zombies = createHorde(numZombies, arena);
