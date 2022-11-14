@@ -48,6 +48,7 @@ void Zombie::spawn(float startX, float startY, int type, int seed)
     m_Sprite.setOrigin(25, 25);
     // Set its position
     m_Sprite.setPosition(m_Position);
+    m_Alive = true;
 }
 
 bool Zombie::hit()
