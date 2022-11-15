@@ -5,6 +5,8 @@
 #include <sstream>
 #include <fstream>
 #include <SFML/Audio.hpp>
+#include <fstream>
+
 using namespace sf;
 
 int main()
