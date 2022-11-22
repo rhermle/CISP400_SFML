@@ -1,4 +1,4 @@
-#include "Hud.h"
+#include "HUD.h"
 Hud::Hud()
 {
     Vector2u resolution;
