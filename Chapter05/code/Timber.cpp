@@ -20,12 +20,14 @@ side branchPositions[NUM_BRANCHES];
 
 int main()
 {
+	sf::View view(sf::FloatRect(0.f, 0.f, 1920.f, 1080.f));
+
 	// Create a video mode object
 	VideoMode vm(1920, 1080);
 
 	// Create and open a window for the game
 
-	RenderWindow window(vm, "Timber Game!!", Style::Default);
+	RenderWindow window(vm, "Timber Game!!", Style::Fullscreen);
 
 	// Create a texture to hold a graphic on the GPU
 	Texture textureBackground;
@@ -513,6 +515,7 @@ int main()
 		****************************************
 		*/
 
+		window.setView(view);
 		// Clear everything from the last run frame
 		window.clear();
 		// Draw our game scene here
